@@ -974,19 +974,20 @@ form_create_widget (GtkWidget * dlg)
                 else
                   buf = g_strdup ("");
                 e = gtk_check_button_new ();
-                l = gtk_label_new (NULL);
+                l = gtk_label_new_with_mnemonic (NULL);
                 if (!options.data.no_markup)
                   {
-                    gtk_label_set_markup (GTK_LABEL(l), buf);
+                    gtk_label_set_markup_with_mnemonic (GTK_LABEL(l), buf);
                     if (fld->tip)
                       gtk_widget_set_tooltip_markup (e, fld->tip);
                   }
                 else
                   {
-                    gtk_label_set_text (GTK_LABEL(l), buf);
+                    gtk_label_set_text_with_mnemonic (GTK_LABEL(l), buf);
                     if (fld->tip)
                       gtk_widget_set_tooltip_text (e, fld->tip);
                   }
+                gtk_label_set_mnemonic_widget (GTK_LABEL (l), e);
                 gtk_container_add (GTK_CONTAINER (e), l);
                 gtk_widget_set_name (e, "yad-form-check");
                 gtk_grid_attach (GTK_GRID (tbl), e, col * 2, row, 2, 1);
