@@ -341,9 +341,12 @@ progress_create_widget (GtkWidget *dlg)
         }
 
       progress_bars = g_slist_append (progress_bars, w);
-      
+
       if (p->type == YAD_PROGRESS_CPULSE)
-        g_timeout_add_seconds (1, (GSourceFunc) pulsate_progress_bar, w);
+        {
+          g_timeout_add (600, (GSourceFunc) pulsate_progress_bar, w);
+          gtk_progress_bar_pulse (GTK_PROGRESS_BAR (w));
+        }
 
       i++;
     }
