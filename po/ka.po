@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yad git\n"
 "Report-Msgid-Bugs-To: victor@sanana.kiev.ua\n"
-"POT-Creation-Date: 2026-06-30 16:06+0300\n"
+"POT-Creation-Date: 2026-07-14 11:13+0300\n"
 "PO-Revision-Date: 2026-01-01 15:41+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <(nothing)>\n"
@@ -93,15 +93,15 @@ msgstr "აირჩიეთ ან შექმენით საქაღა
 msgid "Select date"
 msgstr "აირჩიეთ თარიღი"
 
-#: src/form.c:1047
+#: src/form.c:1055
 msgid "Select file"
 msgstr "აირჩიეთ ფაილი"
 
-#: src/form.c:1077
+#: src/form.c:1085
 msgid "Select folder"
 msgstr "საქაღალდეს არჩევა"
 
-#: src/form.c:1245 src/form.c:1247
+#: src/form.c:1253 src/form.c:1255
 msgid "Link"
 msgstr "ბმული"
 

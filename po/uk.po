@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YAD\n"
 "Report-Msgid-Bugs-To: victor@sanana.kiev.ua\n"
-"POT-Creation-Date: 2026-06-30 16:06+0300\n"
+"POT-Creation-Date: 2026-07-14 11:13+0300\n"
 "PO-Revision-Date: 2021-11-28 19:00+0200\n"
 "Last-Translator: Victor Ananjevsky <victor@sanana.kiev.ua>\n"
 "Language-Team: \n"
@@ -94,15 +94,15 @@ msgstr "Вибрати або створити теку"
 msgid "Select date"
 msgstr "Вибрати дату"
 
-#: src/form.c:1047
+#: src/form.c:1055
 msgid "Select file"
 msgstr "Вибрати файл"
 
-#: src/form.c:1077
+#: src/form.c:1085
 msgid "Select folder"
 msgstr "Вибрати теку"
 
-#: src/form.c:1245 src/form.c:1247
+#: src/form.c:1253 src/form.c:1255
 msgid "Link"
 msgstr "Посилання"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Brazilian\n"
 "Report-Msgid-Bugs-To: victor@sanana.kiev.ua\n"
-"POT-Creation-Date: 2026-06-30 16:06+0300\n"
+"POT-Creation-Date: 2026-07-14 11:13+0300\n"
 "PO-Revision-Date: 2025-12-04 09:22-0300\n"
 "Last-Translator: Cristiano Fraga G. Nunes <cfgnunes@gmail.com>\n"
 "Language-Team: Brazilian\n"
@@ -95,15 +95,15 @@ msgstr "Selecionar ou criar pasta"
 msgid "Select date"
 msgstr "Selecione a data"
 
-#: src/form.c:1047
+#: src/form.c:1055
 msgid "Select file"
 msgstr "Selecione o arquivo"
 
-#: src/form.c:1077
+#: src/form.c:1085
 msgid "Select folder"
 msgstr "Selecione a pasta"
 
-#: src/form.c:1245 src/form.c:1247
+#: src/form.c:1253 src/form.c:1255
 msgid "Link"
 msgstr "Link"
 

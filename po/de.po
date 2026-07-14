@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yad\n"
 "Report-Msgid-Bugs-To: victor@sanana.kiev.ua\n"
-"POT-Creation-Date: 2026-06-30 16:06+0300\n"
+"POT-Creation-Date: 2026-07-14 11:13+0300\n"
 "PO-Revision-Date: 2009-11-30 16:53+0100\n"
 "Last-Translator: Manfred Mueller aka Quax<mmueller@live-modules.org>\n"
 "Language-Team: German translations at Lin2Go <mmueller@live-modules.org>\n"
@@ -94,16 +94,16 @@ msgstr ""
 msgid "Select date"
 msgstr "Datei öffnen"
 
-#: src/form.c:1047
+#: src/form.c:1055
 #, fuzzy
 msgid "Select file"
 msgstr "Datei öffnen"
 
-#: src/form.c:1077
+#: src/form.c:1085
 msgid "Select folder"
 msgstr ""
 
-#: src/form.c:1245 src/form.c:1247
+#: src/form.c:1253 src/form.c:1255
 msgid "Link"
 msgstr ""
 

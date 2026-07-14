@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YAD\n"
 "Report-Msgid-Bugs-To: victor@sanana.kiev.ua\n"
-"POT-Creation-Date: 2026-06-30 16:06+0300\n"
+"POT-Creation-Date: 2026-07-14 11:13+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Guesst <guesst@gmail.com>\n"
 "Language-Team: Spanish\n"
@@ -91,15 +91,15 @@ msgstr "Seleccione o cree la carpeta"
 msgid "Select date"
 msgstr "Seleccione la fecha"
 
-#: src/form.c:1047
+#: src/form.c:1055
 msgid "Select file"
 msgstr "Seleccione el archivo"
 
-#: src/form.c:1077
+#: src/form.c:1085
 msgid "Select folder"
 msgstr "Seleccione la carpeta"
 
-#: src/form.c:1245 src/form.c:1247
+#: src/form.c:1253 src/form.c:1255
 msgid "Link"
 msgstr ""
 
