@@ -293,6 +293,7 @@ static GOptionEntry app_options[] = {
     N_("Show all applications"), NULL },
   { "extended", 0, 0, G_OPTION_ARG_NONE, &options.app_data.extended,
     N_("Output all application data"), NULL },
+  { NULL }
 };
 
 static GOptionEntry calendar_options[] = {
