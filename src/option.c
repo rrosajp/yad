@@ -509,7 +509,7 @@ static GOptionEntry list_options[] = {
     N_("Set the limit of rows in list"), N_("NUMBER") },
   { "dclick-action", 0, 0, G_OPTION_ARG_STRING, &options.action_data.dclick,
     N_("Set double-click action"), N_("CMD") },
-  { "select-action", 0, 0, G_OPTION_ARG_STRING, &options.action_data.select,
+  { "select-action", 0, G_OPTION_FLAG_NOALIAS, G_OPTION_ARG_STRING, &options.action_data.select,
     N_("Set select action"), N_("CMD") },
   { "row-action", 0, 0, G_OPTION_ARG_STRING, &options.action_data.row,
     N_("Set row action"), N_("CMD") },
