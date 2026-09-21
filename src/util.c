@@ -33,6 +33,7 @@
 
 #include "yad.h"
 
+/* NOTE: remember to change YAD_STOCK_COUNT in yad.h */
 const YadStock yad_stock_items[] = {
   { "yad-about", N_("About"), "help-about" },
   { "yad-add",  N_("Add"), "list-add" },
